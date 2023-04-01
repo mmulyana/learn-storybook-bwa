@@ -5,7 +5,7 @@ import { ComponentMeta } from '@storybook/react'
 import Brand from '../../../components/Brand'
 
 export default {
-    title: 'Components/Brand',
+    title: 'Components/Brand/Example',
     component: Brand,
 } as ComponentMeta<typeof Brand>
 

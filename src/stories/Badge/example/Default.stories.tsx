@@ -5,7 +5,7 @@ import { ComponentMeta } from '@storybook/react'
 import Badge from '../../../components/Badge'
 
 export default {
-    title: 'Components/Badge',
+    title: 'Components/Badge/Example',
     component: Badge,
 } as ComponentMeta<typeof Badge>
 
