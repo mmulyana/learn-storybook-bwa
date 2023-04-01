@@ -1,0 +1,18 @@
+import { Meta, Canvas, Story, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+import "assets/css/index.css";
+
+import Button from "./example/Sample";
+
+<Meta title="Components/Button" />
+
+# Button
+
+Button component
+
+export const Template = (args) => <Button {...args} />;
+
+<Story name="Introduction" args={{}}>
+  {Template.bind({})}
+</Story>
